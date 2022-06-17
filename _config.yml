@@ -64,7 +64,8 @@ collections:
     output: true
     description: "My Programming Blog" # The post list page content
     feature_text: |
-      SSerVe - Web Automation & Discord Bot Programmer
+        ## SSerVe
+Web Automation & Discord Bot Programmer
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
