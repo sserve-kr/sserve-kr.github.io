@@ -87,6 +87,11 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+  -
+    scope:
+      path: "_posts"
+    values:
+      permalink: /blog/posts/:title
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
