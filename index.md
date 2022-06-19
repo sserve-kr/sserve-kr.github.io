@@ -5,6 +5,8 @@ feature_text: |
   Web Automation & Discord Bot Programmer
 feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: ""
+sitemap:
+  priority: 1.0
 ---
 
 This is my profile page.  
