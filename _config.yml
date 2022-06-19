@@ -103,7 +103,7 @@ url: "https://www.sserve.me" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/sserve-kr/sserve-kr.github.io"
 email: "personal@sserve.me"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+disqus: "sserve" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 google_analytics: "G-WYRDR6XBVM"
 # google_analytics_anonymize_ip: ""
