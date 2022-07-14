@@ -89,6 +89,11 @@ defaults:
       path: "_posts"
     values:
       permalink: /blog/posts/:title
+  -
+    scope:
+      path: "_drafts"
+    values:
+      permalink: /blog/drafts/:title
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right

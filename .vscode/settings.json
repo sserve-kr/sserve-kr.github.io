@@ -12,6 +12,6 @@
         },
         "editor.minimap.enabled": false
     },
-    "frontMatter.preview.host": "http://127.0.0.1:4000/blog/posts/",
+    "frontMatter.preview.host": "http://127.0.0.1:4000/blog/drafts/",
     "frontMatter.framework.startCommand": "bundle exec jekyll serve --livereload --drafts"
 }
