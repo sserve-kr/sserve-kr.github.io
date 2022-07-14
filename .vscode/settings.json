@@ -12,6 +12,6 @@
         },
         "editor.minimap.enabled": false
     },
-    "frontMatter.preview.host": "http://127.0.0.1:4000/blog/drafts/",
-    "frontMatter.framework.startCommand": "bundle exec jekyll serve --livereload --drafts"
+    "frontMatter.preview.host": "https://sserve-kr-sserve-kr-github-io-ggv6r7qq3w9w6-4000.githubpreview.dev/blog/drafts",
+    "frontMatter.framework.startCommand": "sudo bundle exec jekyll serve --livereload --drafts"
 }

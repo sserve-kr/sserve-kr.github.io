@@ -65,6 +65,37 @@
           "type": "string"
         }
       ]
+    },
+    {
+      "name": "draft",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "excerpt",
+          "name": "excerpt",
+          "type": "string"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "slug",
+          "name": "slug",
+          "type": "datetime"
+        }
+      ]
     }
   ],
   "frontMatter.framework.id": "jekyll",
