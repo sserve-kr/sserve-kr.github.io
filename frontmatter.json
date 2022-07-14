@@ -63,16 +63,6 @@
           "title": "excerpt",
           "name": "excerpt",
           "type": "string"
-        },
-        {
-          "title": "draft",
-          "name": "draft",
-          "type": "boolean"
-        },
-        {
-          "title": "type",
-          "name": "type",
-          "type": "string"
         }
       ]
     }
