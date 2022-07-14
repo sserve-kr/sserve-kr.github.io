@@ -11,5 +11,82 @@
             "other": "off"
         },
         "editor.minimap.enabled": false
-    }
+    },
+    "frontMatter.taxonomy.contentTypes": [
+        {
+            "name": "default",
+            "pageBundle": false,
+            "fields": [
+                {
+                    "title": "Title",
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "title": "Description",
+                    "name": "description",
+                    "type": "string"
+                },
+                {
+                    "title": "Publishing date",
+                    "name": "date",
+                    "type": "datetime",
+                    "default": "{{now}}",
+                    "isPublishDate": true
+                },
+                {
+                    "title": "Content preview",
+                    "name": "preview",
+                    "type": "image"
+                },
+                {
+                    "title": "Is in draft",
+                    "name": "draft",
+                    "type": "boolean"
+                },
+                {
+                    "title": "Tags",
+                    "name": "tags",
+                    "type": "tags"
+                },
+                {
+                    "title": "Categories",
+                    "name": "categories",
+                    "type": "categories"
+                }
+            ]
+        },
+        {
+            "name": "post",
+            "pageBundle": false,
+            "fields": [
+                {
+                    "title": "title",
+                    "name": "title",
+                    "type": "string"
+                },
+                {
+                    "title": "categories",
+                    "name": "categories",
+                    "type": "categories"
+                },
+                {
+                    "title": "excerpt",
+                    "name": "excerpt",
+                    "type": "string"
+                },
+                {
+                    "title": "draft",
+                    "name": "draft",
+                    "type": "boolean"
+                },
+                {
+                    "name": "type",
+                    "type": "string",
+                    "default": "post",
+                    "hidden": true
+                }
+            ]
+        }
+    ]
 }
